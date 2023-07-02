@@ -1,0 +1,254 @@
+*{
+    padding: 0px ;
+    margin:0px ;
+}
+
+body{
+    font-family: serif ;
+    font-size: 14px ;
+    line-height: 24px ;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif ;
+
+}
+a{
+    text-decoration: none ;
+}
+a:hover{
+    text-decoration: none ;
+}
+.backgruond{
+    width: 100% ;
+    height: 100vh ;
+    background-image: linear-gradient(
+        rgba(133, 120, 163, 0.2),
+        rgba(56,50,70,.20)
+        ),url(images/sky.jpg) ;
+    background-position: center ;
+    background-size: cover ;
+    position: relative;
+}
+
+
+.green{
+    width: 400px ;
+    height: 200px ;
+    background: #09755A ;
+    position: relative;
+}
+.red{
+    width: 100px ;
+    height: 100px ;
+    background: red ;
+    border-radius: 100% ;
+    position: absolute ;
+    top: 50px ;
+    left: 150px ;
+}
+.content{
+    position: absolute;
+    top: 90px ;
+    left: 150px ;
+}
+
+.box1{
+    position: relative;
+
+}
+.lathi{
+    width: 20px ;
+    height: 88vh ;
+    background: #334F6E ;
+    position:absolute ;
+    top: 80px ;
+    left: 110px ;
+    border-radius: 100px;
+}
+.lathi2{
+    width:60px ;
+    height: 2px ;
+    background-color: #A2B3C2 ;
+    position:absolute ;
+    top: 90px ;
+    left: 130px;
+}
+.lathi3{
+    width:60px ;
+    height: 2px ;
+    background-color: #A2B3C2 ;
+    position:absolute ;
+    top: 288px ;
+    left: 130px;
+}
+
+.in-share{
+    width: 150px ;
+    position: fixed ;
+    top: 300px ;
+    right: -100px ;
+    transition: 1s ;
+}
+.in-share:hover{
+    right: -2px ;
+}
+
+.twi-share{
+    width: 150px ;
+    position: fixed ;
+    top: 350px ;
+    right: -100px ;
+    transition: 1s ;
+}
+.twi-share:hover{
+    right: -2px ;
+}
+.fb-share{
+    width: 150px ;
+    position: fixed ;
+    top: 200px ;
+    right: -100px ;
+    transition: 1s ;
+}
+.fb-share:hover{
+    right: -2px ;
+}
+
+.social-icon{
+    width: 100%;
+    display: block ;
+    padding: 40px 0px ;
+    position: absolute;
+    top: 320px ;
+    text-align: center ;
+}
+.social-icon li{
+    list-style: none ;
+    display: inline-block ;
+}
+.social-icon li a .fa-facebook{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-facebook:hover{
+    background:#0C89F0 ;
+}
+
+
+.social-icon li a .fa-twitter{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background:black;
+    color:white ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-twitter:hover{
+    background: #1D9BF0 ;
+   
+}
+
+.social-icon li a .fa-instagram{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-instagram:hover{
+    background: #FE858A ;
+}
+
+.social-icon li a .fa-youtube{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-youtube:hover{
+    background: #FF0202 ;
+}
+
+.social-icon li a .fa-telegram{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-telegram:hover{
+    background:#26A4E3 ;
+}
+
+.social-icon li a .fa-whatsapp{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin:5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-whatsapp:hover{
+    background:#51CB5F ;
+}
+.social-icon li a .fa-linkedin{
+    display: inline-block ;
+    width: 40px ;
+    height: 40px ;
+    line-height: 40px ;
+    background: #000 ;
+    color:#fff ;
+    border: 1px solid black;
+    font-size: 20px ;
+    border-radius: 100% ;
+    margin: 5px ;
+    transition: 1s ;
+}
+
+.social-icon li a .fa-linkedin:hover{
+    background: #0073B2 ;
+}
